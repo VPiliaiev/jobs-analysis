@@ -107,7 +107,7 @@ Then open the notebook from the `analysis/` directory and run all cells.
 
 Shows the most frequently mentioned technologies in job vacancies.
 
-![Top Technologies](/Users/valeriypilyaev/Desktop/Mate_academy/jobs-analysis/analysis/images/general_tech_ranking.png)
+![Top Technologies](analysis/images/general_tech_ranking.png)
 
 ---
 
@@ -115,4 +115,4 @@ Shows the most frequently mentioned technologies in job vacancies.
 
 Shows which technologies are most commonly required for Junior, Middle, and Senior positions.
 
-![Technologies by Grade](/Users/valeriypilyaev/Desktop/Mate_academy/jobs-analysis/analysis/images/tech_by_grade_percentage.png)
+![Technologies by Grade](analysis/images/tech_by_grade_percentage.png)
