@@ -2,11 +2,13 @@ import scrapy
 from scrapy.http import Response
 from typing import Generator, Dict, Any
 
+from config import START_URL
+
 
 class VacanciesSpider(scrapy.Spider):
     name = "vacancies"
     allowed_domains = ["work.ua"]
-    start_urls = ["https://www.work.ua/jobs-python/"]
+    start_urls = [START_URL]
 
     def parse(self, response: Response) -> Generator:
         job_cards = response.css("div.card-hover") or response.css("div.card")
